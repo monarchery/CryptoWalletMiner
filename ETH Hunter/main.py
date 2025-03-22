@@ -36,7 +36,7 @@ def check_balance():
         if final_balance != 0:
             with open('FoundAddress.txt', 'a') as f:
                 f.write("\n",private_key)
-                print("Donate to HCMLXOX:bc1qnk0ftxa4ep296phhnxl5lv9c2s5f8xakpcxmth")
+                print("0")
     except Exception as e:
         print("Error:Please Check your Network Connection")
         print(e)
